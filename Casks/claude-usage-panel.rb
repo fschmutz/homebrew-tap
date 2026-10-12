@@ -12,8 +12,8 @@
 # and attaches the result, pinned to that zip's sha256, to the release; that
 # asset is the cask to install, and brew verifies its checksum.
 cask "claude-usage-panel" do
-  version "3.10.0"
-  sha256 "6dd3e6ab44a00978fcd8432148b9915b68b9d95790be9662b757ca084e2e3e84"
+  version "3.10.1"
+  sha256 "c0acc8e090e8aa699ee7f8dac6c23779ea6e7f08de8c56c511f7f268fe5a4b51"
 
   url "https://github.com/fschmutz/claude-usage-panel/releases/download/v#{version}/ClaudeUsagePanel-macos.zip"
   name "Claude Usage Panel"
